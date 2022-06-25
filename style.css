@@ -47,7 +47,7 @@
 }
 
 .aboutMeButton {
-    color: #5b5b5b;
+    border: none;
     font-size: 7px;
     padding: 1px;
     border-radius: 0px;
@@ -66,8 +66,15 @@
     top: 100%;
     left: 100%;
     margin-top: -10px;
-    margin-left: -180px;
-    width: 210px;
-    height: 70px
+    margin-left: -127px;
+    width: 100px;
+    height: 21px
 }
 
+.aboutMeButton:hover {
+    background: #7e7e7e
+}
+
+.aboutMeButton {
+
+}
