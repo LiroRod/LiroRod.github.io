@@ -90,11 +90,54 @@
     top: 50%;
     left: 50%;
     margin-top: 30px;
-    margin-left: -60px;
+    margin-left: -100px;
     width: 300px;
     height: 100px;
 }
 
 .styles_socialName {
-    margin-left: 30px;
+    margin-left: 50px;
 }
+
+.styles_projectsPages {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -moz-box-align: center;
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: 180px;
+    width: 400px;
+    height: 100%;
+}
+
+.project_Button {
+    border: 1px solid #292929;
+    width: 300px;
+    margin-top: 28px;
+    background-color: #151515;
+    font-family: "Lucida Console";
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #cacaca;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-color: #151515;
+    cursor: pointer;
+    top: 100%;
+    left: 100%;
+    width: 300px;
+    height: 21px;
+    box-shadow: #000 2px 2px 2px 2px;
+    cursor: pointer;
+}
+
