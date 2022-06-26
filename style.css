@@ -14,7 +14,7 @@
     height: 150px;
     line-height: 115px;
     text-align: center;
-    border: 10px #5b5b5b;
+    box-shadow: #000 2px 2px 2px 2px;
 }
 
 .resize_fit_center {
@@ -42,12 +42,13 @@
     left: 50%;
     margin-top: -50px;
     margin-left: -250px;
+    margin-bottom: 0px;
     width: 150px;
-    height: 150px;
+    height: 134.08px;
 }
 
 .aboutMeButton {
-    border: none;
+    border: 1px solid #292929;
     font-size: 7px;
     padding: 1px;
     border-radius: 0px;
@@ -61,20 +62,39 @@
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    background-color: #212121;
+    background-color: #151515;
     position: absolute;
     top: 100%;
     left: 100%;
-    margin-top: -10px;
+    margin-top: -8px;
     margin-left: -127px;
     width: 100px;
-    height: 21px
+    height: 21px;
+    box-shadow: #000 2px 2px 2px 2px;
+    cursor: pointer;
 }
 
 .aboutMeButton:hover {
-    background: #7e7e7e
+    background: #7e7e7e 
 }
 
-.aboutMeButton {
+.styles_socialMedia {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -moz-box-align: center;
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: -60px;
+    width: 300px;
+    height: 100px;
+}
 
+.styles_socialName {
+    margin-left: 30px;
 }
