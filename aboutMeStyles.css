@@ -2,7 +2,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
+    margin-top: -65px;
     margin-left: -50px;
     width: 300px;
     height: 100px;
@@ -106,7 +106,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-left: -100px;
     width: 300px;
     height: 100px;
@@ -135,10 +135,11 @@
 
 .youtubeVideo {
     position: absolute;
-    top: 50%;
-    left: 75%;
+    top: 75%;
+    left: 50%;
     margin-top: -50px;
     margin-left: -50px;
     width: 300px;
     height: 100px;
+    box-shadow: #000 2px 2px 2px 2px;
 }
