@@ -87,8 +87,8 @@ body { background-color:#141414;}
 
 .text {
     position: absolute;
-    top: 41.7%;
-    left: 51%;
+    top: 51%;
+    left: 41%;
     margin-top: -50px;
     margin-left: -50px;
     width: 300px;
@@ -111,7 +111,7 @@ body { background-color:#141414;}
 .text1 {
     position: absolute;
     top: 30%;
-    left: 51%;
+    left: 41%;
     margin-top: -50px;
     margin-left: -50px;
     width: 300px;
@@ -133,8 +133,8 @@ body { background-color:#141414;}
 
 .text2 {
     position: absolute;
-    top: 46%;
-    left: 51%;
+    top: 65%;
+    left: 41%;
     margin-top: 50px;
     margin-left: -50px;
     width: 300px;
